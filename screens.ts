@@ -679,7 +679,6 @@ function drawHangar(): void {
     if (guidedDeliveryRunning()) {
         screen.fillRect(0, 98, 160, 10, COLOR_BLUE)
         screen.fillRect(0, 98, 6, 10, COLOR_YELLOW)
-        printGameText(Texts.t(286), 1, 101, COLOR_BACKGROUND)
         printGameText(fitText(tutorialStageName(), 25), 8, 101, COLOR_YELLOW)
     }
     if (confirmOpen) {
